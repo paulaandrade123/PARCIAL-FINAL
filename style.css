@@ -7,7 +7,7 @@ h1 {
     margin-top: 20px;
 }
 
-#map {
+#map, #map2 {
     width: 80%;
     height: 500px;
     margin: 20px auto;
@@ -15,36 +15,14 @@ h1 {
     border-radius: 10px;
 }
 
-input, button {
-    margin: 10px;
-    padding: 10px;
-    font-size: 16px;
-    cursor: pointer;
-}
-
-button {
-    background-color: #007BFF;
-    color: white;
-    border: none;
-    border-radius: 5px;
-}
-
-button:hover {
-    background-color: #0056b3;
-}
-
-
-.image-container {
-    position: relative;
-    width: 100%;
-    max-height: 600px;
-    overflow: hidden;
-}
-
-.image-container img {
-    width: 100%;
-    height: auto;
-    display: block;
+#polygon-data {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    text-align: left;
 }
 
 .text-overlay {
@@ -53,23 +31,18 @@ button:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    background: rgba(0, 0, 0, 0.5); /* Fondo oscuro translúcido */
     padding: 20px;
     border-radius: 10px;
 }
 
 .text-overlay h1 {
     font-size: 50px;
-    margin: 0;
-    font-weight: bold;
     color: white;
     text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8);
 }
 
 .text-overlay h3 {
     font-size: 26px;
-    margin: 5px 0;
-    font-weight: normal;
     color: white;
     text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8);
 }
